@@ -1,0 +1,8 @@
+[2023-09-27T12:56:36.281005+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /chroot/home/ae631018/c2bb2b798e.nxcli.io/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace('cron')
+#1 /chroot/home/ae631018/c2bb2b798e.nxcli.io/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find('cron:run')
+#2 /chroot/home/ae631018/c2bb2b798e.nxcli.io/lib/internal/Magento/Framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /chroot/home/ae631018/c2bb2b798e.nxcli.io/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /chroot/home/ae631018/c2bb2b798e.nxcli.io/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-09-27T13:00:24.488184+00:00] main.INFO: Request token zece54l8kfyapodr1zqyyplty6rjfycl was exchanged to obtain access token for consumer 1 [] []
